@@ -5,7 +5,6 @@ import { nodePolyfills } from 'vite-plugin-node-polyfills';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  base: '/ui/',
   plugins: [
     nodePolyfills({
       globals: {
